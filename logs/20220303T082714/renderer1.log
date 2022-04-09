@@ -1,0 +1,225 @@
+[2022-03-03 08:27:19.147] [renderer1] [info] IExtensionHostStarter.start() took 731 ms.
+[2022-03-03 08:27:20.707] [renderer1] [error] [Extension Host] (node:8299) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2022-03-03 08:38:34.887] [renderer1] [error] Unable to find matching pair for ( at char 1118: Error: Unable to find matching pair for ( at char 1118
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14540)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201162)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186905)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185677)
+	at G.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:104505)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126414
+	at Ee._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:116602)
+	at Ee.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126390)
+	at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13801)
+	at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13485)
+	at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:12096)
+	at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:10825)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:8934
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:34390
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at a._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:23583)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:21117
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at _.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:15833)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:14963
+	at Socket.A (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:13838)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-03 08:38:38.965] [renderer1] [error] Unable to find matching pair for ( at char 1118: Error: Unable to find matching pair for ( at char 1118
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14540)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201162)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186905)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185677)
+	at G.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:104505)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126414
+	at Ee._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:116602)
+	at Ee.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126390)
+	at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13801)
+	at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13485)
+	at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:12096)
+	at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:10825)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:8934
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:34390
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at a._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:23583)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:21117
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at _.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:15833)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:14963
+	at Socket.A (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:13838)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-03 08:38:45.731] [renderer1] [error] Unable to find matching pair for ( at char 1118: Error: Unable to find matching pair for ( at char 1118
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14540)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201162)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186905)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185677)
+	at G.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:104505)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126414
+	at Ee._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:116602)
+	at Ee.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126390)
+	at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13801)
+	at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13485)
+	at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:12096)
+	at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:10825)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:8934
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:34390
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at a._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:23583)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:21117
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at _.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:15833)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:14963
+	at Socket.A (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:13838)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-03 08:39:02.334] [renderer1] [error] Unable to find matching pair for ( at char 1118: Error: Unable to find matching pair for ( at char 1118
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14540)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201162)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186905)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185677)
+	at G.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:104505)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126414
+	at Ee._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:116602)
+	at Ee.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126390)
+	at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13801)
+	at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13485)
+	at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:12096)
+	at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:10825)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:8934
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:34390
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at a._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:23583)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:21117
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at _.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:15833)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:14963
+	at Socket.A (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:13838)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-03 08:39:12.805] [renderer1] [error] Unable to find matching pair for ( at char 1118: Error: Unable to find matching pair for ( at char 1118
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14540)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201162)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186905)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185677)
+	at G.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:104505)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126414
+	at Ee._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:116602)
+	at Ee.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126390)
+	at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13801)
+	at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13485)
+	at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:12096)
+	at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:10825)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:8934
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:34390
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at a._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:23583)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:21117
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at _.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:15833)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:14963
+	at Socket.A (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:13838)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2022-03-03 08:39:14.333] [renderer1] [error] Unable to find matching pair for ( at char 1118: Error: Unable to find matching pair for ( at char 1118
+	at r.error (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:22607)
+	at f (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:21837)
+	at u (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14540)
+	at l (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:14611)
+	at /usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15226
+	at m (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:15333)
+	at E (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16251)
+	at _ (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:16661)
+	at t.getRootNode (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:201162)
+	at t.DefaultCompletionItemProvider.provideCompletionItemsInternal (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:186905)
+	at t.DefaultCompletionItemProvider.provideCompletionItems (/usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:185677)
+	at G.provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:104505)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126414
+	at Ee._withAdapter (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:116602)
+	at Ee.$provideCompletionItems (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:93:126390)
+	at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13801)
+	at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:13485)
+	at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:12096)
+	at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:10825)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:97:8934
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:34390
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at s.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:19002)
+	at a._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:23583)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:21117
+	at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:64:1712)
+	at _.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:15833)
+	at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:72:14963
+	at Socket.A (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:112:13838)
+	at Socket.emit (events.js:315:20)
+	at addChunk (internal/streams/readable.js:309:12)
+	at readableAddChunk (internal/streams/readable.js:284:9)
+	at Socket.Readable.push (internal/streams/readable.js:223:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)

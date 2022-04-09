@@ -1,0 +1,11 @@
+[2022-03-01 08:16:44.440] [main] [info] update#setState idle
+[2022-03-01 08:16:44.571] [main] [info] ExtensionHostStarterWorker created
+[2022-03-01 08:16:50.400] [main] [info] Starting extension host with pid 3655 (fork() took 76 ms).
+[2022-03-01 08:16:50.411] [main] [info] ExtensionHostStarterWorker.start() took 102 ms.
+[2022-03-01 08:16:52.332] [main] [warning] Switching to using in-memory credential store instead because Keytar failed to load: Transporte «disabled» desconocido o no soportado para la dirección «disabled:»
+[2022-03-01 08:17:14.447] [main] [info] update#setState checking for updates
+[2022-03-01 08:17:14.642] [main] [info] update#setState idle
+[2022-03-01 09:17:14.483] [main] [info] update#setState checking for updates
+[2022-03-01 09:17:15.173] [main] [info] update#setState idle
+[2022-03-01 10:07:07.650] [main] [info] Waiting for extension host with pid 3655 to exit.
+[2022-03-01 10:07:07.685] [main] [info] Extension host with pid 3655 exited with code: 0, signal: null.

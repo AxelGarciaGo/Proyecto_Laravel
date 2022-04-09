@@ -1,0 +1,15 @@
+[2022-03-01 08:16:53.787] [exthost] [info] Extension host with pid 3655 started
+[2022-03-01 08:16:53.787] [exthost] [info] Skipping acquiring lock for /root/dockers/lara/www/proyecto_laravel/User/workspaceStorage/f67876d2b7f28ccf27500cc0de04f979.
+[2022-03-01 08:16:54.159] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-03-01 08:16:54.486] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-03-01 08:16:54.510] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-03-01 08:16:54.533] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-03-01 08:16:55.225] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-03-01 08:16:55.687] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-03-01 08:16:56.409] [exthost] [info] Eager extensions activated
+[2022-03-01 08:16:56.440] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-01 08:16:56.572] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-03-01 08:16:58.305] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-03-01 08:21:30.257] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2022-03-01 10:07:07.587] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-03-01 10:07:07.606] [exthost] [info] Extension host with pid 3655 exiting with code 0

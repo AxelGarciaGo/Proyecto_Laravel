@@ -1,0 +1,37 @@
+@extends('plantilla')
+@section('content')
+<style>
+    .uper {
+        margin-top: 40px;
+    }
+</style>
+<div class="card uper">
+    <div class="card-header">
+        Editar Rol
+    </div>
+    <div class="card-body">
+        @if ($errors->any())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div><br />
+        @endif
+        <form method="post" action="{{ route('rol.update', $rol->id) }}"
+            enctype="multipart/form-data">
+            {{ csrf_field() }}
+            @method('PUT')
+            <div class="form-group">
+                <label for="descripcion">Descripcion:</label>
+                <input type="text" id="descripcion"
+                 value="{{$rol->descripcion}}"
+                 class="form-control" name="descripcion" />
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+        </form>
+    </div>
+</div>
+@endsection
