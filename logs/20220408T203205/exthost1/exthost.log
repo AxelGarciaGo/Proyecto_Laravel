@@ -1,0 +1,12 @@
+[2022-04-08 20:32:13.799] [exthost] [info] Extension host with pid 12249 started
+[2022-04-08 20:32:13.799] [exthost] [info] Skipping acquiring lock for /root/dockers/lara/www/proyecto_laravel/User/workspaceStorage/f67876d2b7f28ccf27500cc0de04f979.
+[2022-04-08 20:32:14.654] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2022-04-08 20:32:14.708] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-04-08 20:32:14.719] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-04-08 20:32:14.755] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-04-08 20:32:14.775] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2022-04-08 20:32:15.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-04-08 20:32:15.469] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-04-08 20:32:16.410] [exthost] [info] Eager extensions activated
+[2022-04-08 20:32:16.824] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-04-08 20:32:16.985] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
